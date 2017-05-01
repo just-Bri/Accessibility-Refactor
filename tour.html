@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/tour.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <title>Accessible Frog</title>
+</head>
+
+<body>
+    <nav role="navigation">
+        <ul class="nav">
+            <li class="name"><a href="index.html">Accessible Frog</a>
+            </li>
+            <li><a href="#">Tour</a>
+            </li>
+            <li><a href="survey.html">Survey</a>
+            </li>
+        </ul>
+    </nav>
+    <header role="banner">
+        <h1>ACCESSIBLE FROG</h1>
+        <h2>we make awesome music</h2>
+    </header>
+    <main role="main">
+        <div class="card">
+            <div class="flex">
+                <!-- The following images are decorative for this project. -->
+                <!-- Please see the project instructions for information on how to handle these. -->
+                <!-- I was using Fangs to make this table more readable and it still doesn't look great. But when I checked the actual html/fangs of http://webaim.org/techniques/tables/data it looks about the same as my fangs output, so I guess it's good enough.
+I wanted to try and have a something to seperate the rows, but the reader just spits everything out as one long sentence when it gets to the table. -->
+                <table summary="Tour dates and locations" width="80%">
+                    <caption>
+                        <img class="pick" src="img/guitar_pick.png" alt=""> Tour Dates
+                        <img class="pick" src="img/guitar_pick.png" alt="">
+                    </caption>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">DATE</th>
+                        <th scope="col">VENUE</th>
+                        <th scope="col">LOCATION</th>
+                    </tr>
+                    <tr>
+                        <td scope="row"></td>
+                        <td>Mar 10 - 12</td>
+                        <td>The Warfield</td>
+                        <td>San Fransisco, CA</td>
+                    </tr>
+                    <tr>
+                        <td scope="row"></td>
+                        <td>Mar 20 - 23</td>
+                        <td>Pepsi Center</td>
+                        <td>Denver, CO</td>
+                    </tr>
+                    <tr>
+                        <td scope="row"></td>
+                        <td>Apr 2 - 4</td>
+                        <td>Beacon Theatre</td>
+                        <td>New York City, NY</td>
+                    </tr>
+                    <tr>
+                        <td scope="row"></td>
+                        <td>Apr 10</td>
+                        <td>Paramount Theatre</td>
+                        <td>Seattle, WA</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    <footer role="contentinfo">
+        <ul>
+            <li>
+                <a href="#" class="social twitter" title="link to twitter"></a>
+            </li>
+            <li>
+                <a href="#" class="social youtube" title="link to youtube"></a>
+            </li>
+            <li>
+                <a href="#" class="social spotify" title="link to spotify"></a>
+            </li>
+        </ul>
+        <p class="copyright">Copyright 2015, Accessible Frog</p>
+    </footer>
+</body>
+
+</html>
