@@ -3,9 +3,19 @@
   box-sizing: border-box;
 }
 
+body > main > div:nth-child(1) > div > div > a:hover {
+    color: white;
+}
+
 form,
 fieldset {
     border: none;
+}
+
+input:focus,
+select:focus,
+form:focus {
+    outline-color: #eb768d;
 }
 
 body {
