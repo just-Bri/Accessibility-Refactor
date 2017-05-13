@@ -189,6 +189,12 @@ a.spotify {
   background-image: url(../img/spotify-32.png);
 }
 
+.hide {
+   position: absolute !important;
+   top: -9999px !important;
+   left: -9999px !important;
+}
+
 a.social:hover {
   opacity: 1;
 }
