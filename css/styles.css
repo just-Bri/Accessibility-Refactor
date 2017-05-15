@@ -142,6 +142,7 @@ header .name{
   text-transform: uppercase;
   color: #eb768d;
   margin-top: 10px;
+  align-self: center;
 }
 
 /* Footer styles */
